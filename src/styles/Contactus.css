@@ -1,0 +1,97 @@
+
+  /* Hero Section */
+  .hero-section {
+	background: linear-gradient(90deg, #ff7f50, #ff6347);
+	color: white;
+	text-align: center;
+	padding: 50px 20px;
+  }
+  
+  .hero-section h1 {
+	font-size: 3rem;
+	font-weight: bold;
+  }
+  
+  .hero-section p {
+	font-size: 1.2rem;
+	margin-top: 15px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For devices with width less than 768px (Tablets and Phones) */
+  @media (max-width: 768px) {
+	.hero-section {
+	  padding: 30px 10px;
+	}
+  
+	.hero-section h1 {
+	  font-size: 2.5rem; /* Reduce the font size */
+	}
+  
+	.hero-section p {
+	  font-size: 1rem; /* Adjust paragraph size */
+	}
+  
+	.hero-section div {
+	  padding: 8rem 1rem; /* Reduce padding for smaller screens */
+	}
+  }
+  
+  /* For devices with width less than 576px (Phones) */
+  @media (max-width: 576px) {
+	.hero-section h1 {
+	  font-size: 2rem; /* Further reduce font size */
+	}
+  
+	.hero-section div {
+	  padding: 5rem 0.5rem; /* Minimal padding */
+	}
+  }
+  
+  
+
+
+/* Header Section */
+.header-section {
+  background-color: #f57e20;
+  padding: 20px 0;
+}
+
+.header-section h1 {
+  margin-bottom: 10px;
+}
+
+.header-section p a {
+  font-weight: bold;
+  color: white;
+}
+
+.btn-custom {
+  background-color: #f63366;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #e32658;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.map-container iframe {
+  border-radius: 10px;
+}
+
+/* Icons */
+.text-danger {
+  color: #f63366;
+}
+
+.text-danger:hover {
+  color: #e32658;
+}

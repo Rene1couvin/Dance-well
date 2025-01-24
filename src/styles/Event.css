@@ -1,0 +1,93 @@
+/* Hero Section */
+.hero-section {
+	background-color: #ff7c7c; /* Soft red */
+	color: white;
+	padding: 50px 0;
+  }
+  
+  .hero-section h1 {
+	font-size: 3rem;
+  }
+  
+  .hero-section p {
+	font-size: 1.2rem;
+  }
+  
+  /* Events Section */
+  .events-section {
+	padding: 50px 0;
+  }
+  
+  .event-card {
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card-img {
+	border-radius: 8px;
+  }
+  
+  .event-card-body {
+	padding: 20px;
+  }
+  
+  .event-card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+  }
+  
+  .event-card-text {
+	font-size: 1.1rem;
+	color: #333;
+  }
+  
+  /* Stats Section */
+  .stat-counters {
+	margin-top: 30px;
+  }
+  
+  .stat-counters .col-md-3 {
+	padding: 20px;
+  }
+  
+  .stat-counters h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #ff7c7c;
+  }
+  
+  /* Dance Gallery Section */
+  .dance-gallery {
+	padding: 50px 0;
+  }
+  
+  .dance-gallery img {
+	margin-bottom: 15px;
+	border-radius: 8px;
+  }
+  
+  .dance-gallery .row {
+	gap: 15px;
+  }
+  
+  .dance-gallery .col-md-4 {
+	margin-bottom: 15px;
+  }
+  
+  /* Overall Styling */
+  .bg-light {
+	background-color: #f8f9fa !important; /* Light background for the stats section */
+  }
+  
+  .btn-primary {
+	background-color: #ff7c7c;
+	border-color: #ff7c7c;
+  }
+  
+  .btn-primary:hover {
+	background-color: #ff5a5a;
+	border-color: #ff5a5a;
+  }
+  

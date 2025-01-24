@@ -1,0 +1,60 @@
+styles.css
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section .content {
+  text-align: center;
+  color: white;
+  padding: 20rem 4rem; /* Adjust px-80 equivalent */
+  background: rgba(0, 0, 0, 1.5); /* bg-opacity-50 with black background */
+  height: 20rem;
+}
+
+.hero-section h1 {
+  font-size: 6.28rem; 
+  font-weight: bold;
+}
+
+.hero-section .buttons button {
+  padding: 0.5rem 1.5rem; /* px-6 py-2 equivalent */
+  border-radius: 0.25rem; /* rounded equivalent */
+  margin-right: 1rem;
+}
+
+.hero-section .buttons .join-now {
+  background-color: #ef4444; /* bg-red-500 equivalent */
+}
+
+.hero-section .buttons .read-more {
+  background-color: #3b82f6; /* bg-blue-500 equivalent */
+}
+
+.hero-section p {
+  margin-top: 1.5rem; /* mt-6 equivalent */
+  font-size: 1.125rem; /* text-lg equivalent */
+}
+.img-container {
+  overflow: hidden; /* Hide the overflow */
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards; /* Animation for sliding effect */
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%); /* Start from the left outside */
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    transform: translateX(0); /* End at original position */
+    opacity: 1; /* End with full opacity */
+  }
+}

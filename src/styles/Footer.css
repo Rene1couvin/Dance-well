@@ -1,0 +1,78 @@
+General Footer Styles
+footer {
+  background-color: #123456;
+  color: #fff;
+  padding: 40px 0;
+}
+
+h5 {
+  font-size: 1.2rem;
+  color: #f9ca24;
+}
+
+a {
+  text-decoration: none;
+}
+
+.address-link,
+.social-icon,
+.footer-link,
+.designer-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.address-link:hover,
+.social-icon:hover,
+.footer-link:hover,
+.designer-link:hover {
+  
+  color: #f9ca24;
+}
+
+
+/* SVG Icon Styles */
+.social-svg,
+.address-svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Drop-Up Styles */
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  background-color: #222;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: #fff;
+  padding: 10px 12px;
+  display: block;
+  transition: background 0.3s;
+}
+
+.dropup-content a:hover {
+  background-color: #f9ca24;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.footer-line {
+  height: 1px;
+  background-color: #f9ca24;
+  opacity: 0.7;
+}

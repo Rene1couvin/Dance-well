@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+	font-family: "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+	background: linear-gradient(90deg, #ff7f50, #ff6347);
+	color: white;
+	text-align: center;
+	padding: 50px 20px;
+  }
+  
+  .hero-section h1 {
+	font-size: 3rem;
+	font-weight: bold;
+  }
+  
+  .hero-section p {
+	font-size: 1.2rem;
+	margin-top: 15px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For devices with width less than 768px (Tablets and Phones) */
+  @media (max-width: 768px) {
+	.hero-section {
+	  padding: 30px 10px;
+	}
+  
+	.hero-section h1 {
+	  font-size: 2.5rem; /* Reduce the font size */
+	}
+  
+	.hero-section p {
+	  font-size: 1rem; /* Adjust paragraph size */
+	}
+  
+	.hero-section div {
+	  padding: 8rem 1rem; /* Reduce padding for smaller screens */
+	}
+  }
+  
+  /* For devices with width less than 576px (Phones) */
+  @media (max-width: 576px) {
+	.hero-section h1 {
+	  font-size: 2rem; /* Further reduce font size */
+	}
+  
+	.hero-section div {
+	  padding: 5rem 0.5rem; /* Minimal padding */
+	}
+  }
+  
+  
+  /* About Section */
+  .about-section {
+	margin-top: 30px;
+  }
+  
+  .about-section h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #FF7F50;
+  }
+  
+  .about-section h4 {
+	color: #007BFF;
+	margin-top: 10px;
+  }
+  
+  .about-section p {
+	font-size: 1rem;
+	margin: 20px 0;
+  }
+  
+  .about-section button {
+	background-color: #FF7F50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .about-section button:hover {
+	background-color: #FF6347;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+	background-color: #123456;
+  }
+  
+  .stat-card {
+	background-color: #ff3366; /* Red for the card */
+	color: white;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px 0;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add some shadow */
+  }
+  
+  .stat-card::before {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 30px;
+	background-color: white;
+	border-radius: 0 0 10px 10px;
+	z-index: -1;
+  }
+  
+  .stat-title {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+  }
+  
+  .stat-number {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+  }
+  
+  
+  /* Professional Instructors Section */
+  .instructors-section {
+	margin-top: 30px;
+  }
+  
+  .instructors-section h2 {
+	color: #FF7F50;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+  /* Instructor Cards */
+  .card {
+	border: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-img-top {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+	background-color: #f9f9f9;
+	padding: 20px;
+  }
+  
+  .card-body h5 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  .card-body p {
+	color: #666;
+	font-size: 0.9rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+	.hero-section h1 {
+	  font-size: 2rem;
+	}
+  
+	.about-section h2,
+	.about-section h4 {
+	  text-align: center;
+	}
+  
+	.about-section img {
+	  margin-bottom: 20px;
+	}
+  
+	.stats-section p {
+	  font-size: 2rem;
+	}
+  
+	.instructors-section h2 {
+	  font-size: 2rem;
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.hero-section h1 {
+	  font-size: 1.8rem;
+	}
+  
+	.stats-section p {
+	  font-size: 1.8rem;
+	}
+  }
+  .no-underline {
+	text-decoration: none;
+  }
+  
+  .no-underline:hover {
+	text-decoration: none; /* Prevent underline on hover too */
+  }
+  
