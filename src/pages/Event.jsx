@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/event.css'; // Custom CSS file for styling
+import '../styles/Event.css'; // Custom CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 
 const App = () => {
