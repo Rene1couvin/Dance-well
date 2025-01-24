@@ -3,7 +3,7 @@ import './styles/preloader.css'; // Import CSS for styling
 
 const Preloader = () => {
     return (
-        <div className="preloader">
+        <div className="Preloader">
             <div className="loader"></div>
             <p>Loading...</p>
         </div>
