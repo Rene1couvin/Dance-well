@@ -14,7 +14,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
     >
       <div className="container-fluid d-flex justify-content-between">
         {/* Left Section: Dance Well */}
-        <a className="navbar-brand text-2xl font-bold" href="/">
+        <a className="navbar-brand text-2xl font-bold" href="/a">
           <button className="btn btn-gradient rounded-pill px-4 py-2 text-white">
             Dance Well
           </button>
