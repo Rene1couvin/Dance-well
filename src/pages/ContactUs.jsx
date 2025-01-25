@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ContactUs.css'; // Importing custom CSS
+import '../styles/contactUs.css'; // Importing custom CSS
 import bg1 from "../assets/Image/salsa/14.jpg";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

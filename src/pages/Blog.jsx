@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/blog.css'; // Custom CSS file for styling
+import '../styles/Blog.css'; // Custom CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 
 const Blog = () => {
