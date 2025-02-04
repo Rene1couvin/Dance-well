@@ -1,10 +1,14 @@
 .preloader {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     height: 100vh; /* Full screen height */
     background-color: #f0f0f0; /* Background color */
+    position: fixed; /* Ensure it stays fixed on the screen */
+    top: 0; /* Align at the top of the page */
+    left: 0; /* Align at the left of the page */
+    width: 100%; /* Take up full width */
+    z-index: 9999; /* Ensure it is on top of other content */
 }
 
 .loader {
