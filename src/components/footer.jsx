@@ -10,9 +10,7 @@ function Footer() {
           <div className="col-md-3">
             <h5 className="mb-4">Dance Well</h5>
             <p>
-              Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit consectetur
-              adipiscing elit.
+            Latino dance is not a technique but a way of expression that comes more closely to the inner language of man than any other. The body says what words cannot.
             </p>
             <div className="social-icons">
               <a href="#" className="social-icon">
@@ -34,14 +32,17 @@ function Footer() {
           <div className="col-md-3">
             <h5 className="mb-4">Address</h5>
             <p>
-              <i className="fas fa-map-marker-alt me-3"></i>0123 Street, New
-              York, USA
+              <i className="fas fa-map-marker-alt me-3"></i>📍 45 KG 669 St, Kigali
             </p>
             <p>
-              <i className="fas fa-phone-alt me-3"></i>+012 345 67890
+            <i></i><a className="dropdown-item" href="tel:+250788630520">
+            📞+250 788 630 520
+                </a>
             </p>
             <p>
-              <i className="fas fa-envelope me-3"></i>info@example.com
+            <i></i><a className="dropdown-item" href="mailto:dance.well.classic@gmail.com">
+                  📧 dance.well.classic@gmail.com
+                </a>
             </p>
           </div>
 

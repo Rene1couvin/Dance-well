@@ -1,0 +1,26 @@
+.auth-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to right, #ff9800, #ffcc80);
+  }
+  
+  .auth-card {
+	width: 350px;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	background: white;
+  }
+  
+  .toggle-link {
+	color: #ff5722;
+	cursor: pointer;
+	font-weight: bold;
+  }
+  
+  .toggle-link:hover {
+	text-decoration: underline;
+  }
+  

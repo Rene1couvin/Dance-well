@@ -5,7 +5,7 @@ import "../styles/1home.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1 .3/dist/css/bootstrap.min.css"
   rel="stylesheet"
 />;
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,7 +36,12 @@ const HomePage = () => {
           <button className="btn btn-primary">Read More</button>
         </div>
         <p className="mt-4 fs-5">
-          Join us today for your first dance +250 787 977 557
+          Join us today for your first dance <a
+        href="tel:+250788630520"
+        className="no-underline text-white font-weight-bold"
+      >
+        📞 +250 788 630 520
+      </a>
         </p>
       </div>
     </section>

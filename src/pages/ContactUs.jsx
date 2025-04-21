@@ -41,7 +41,7 @@ const ContactUs = () => {
       {/* Header Section */}
       <header className="header-section text-white text-center py-4">
         <h1>Contact Us</h1>
-        <p>Join us today for your first dance <a href="tel:7147882205" className="text-white font-weight-bold">714-788-2205</a></p>
+        <p>Join us today for your first dance <a href="+250 788 630 520" className="text-white font-weight-bold">+250 788 630 520</a></p>
       </header>
 
       {/* Main Section */}

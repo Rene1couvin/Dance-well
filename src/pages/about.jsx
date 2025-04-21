@@ -102,7 +102,7 @@ const AboutPage = () => {
         <h2 className="text-center text-warning">Our Professional Instructor</h2>
         <div className="row">
           {/* Instructor Card */}
-          {["Emily Ava", "John Doe", "Jane Smith", "Michael Brown"].map((name, index) => (
+          {["Oscar Maestro", "Kentia Maestro", "Yvette Maestro", "Alain Maestro"].map((name, index) => (
             <div className="col-md-3 text-center" key={index}>
               <div className="card">
                 <img

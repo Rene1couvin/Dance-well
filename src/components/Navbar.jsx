@@ -12,7 +12,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
         paddingLeft: "4rem",
       }}
     >
-      <div className="container-fluid d-flex justify-content-between">
+      <div className="container-fluid d-flex px-4 justify-content-between">
         {/* Left Section: Dance Well */}
         <a className="navbar-brand text-2xl font-bold" href="/">
           <button className="btn btn-gradient rounded-pill px-4 py-2 text-white">
@@ -96,7 +96,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
             <li className="nav-item">
               <a
                 className="nav-link rounded-pill px-3 py-2"
-                href="#register"
+                href="/auth"
                 style={{ color: "#fff" }}
               >
                 Register Now
