@@ -10,7 +10,7 @@ import EventUpload from './pages/UploadEvent';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AuthPage from './auth/AuthPage';
-import Preloader from './Preloader';
+import Preloader from './preloader';
 import Admin from './admin/admin_all';
 import ProtectedRoute from './ProtectedRoute';
 
