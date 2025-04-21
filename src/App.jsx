@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
+import About from './pages/about';
 import Event from './pages/Event';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/blogdetail';
